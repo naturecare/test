@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+
+  <head>  	
+  	<meta charset="utf-8">
+    <meta name="description" content="Responsive Bootstrap Landing Page Template">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+		<title>Natue Care</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="screen">
+    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+    <link href="css/material.min.css" rel="stylesheet">
+    <link href="css/ripples.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/lightgallery.css">
+
+
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-invers menu-wrap">
+      <div class="navbar-header text-center">
+        <a class="navbar-brand logo-right" href="javascript:void(0)"><i class="mdi-image-timelapse"></i>NatureCare</a>
+      </div>
+        <ul class="nav navbar-nav main-navigation">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#why">why</a></li>
+          <li><a href="#screenshot">Screenshots</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#clients">Contact</a></li>
+        </ul>
+        <button class="close-button" id="close-button">Close Menu</button>
+    </div>
+  	
+  	<div class="content-wrap">
+     <header class="hero-area" id="home">
+      
+      <div class="container">
+          <div class="col-md-12">
+
+            <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+              <div class="container">
+                <div class="navbar-header">
+                  <a class="logo-left " href="index.html"><i class="mdi-image-timelapse"></i>Nature Care</a>
+                </div>
+                <div class="navbar-right">
+                  <button class="menu-icon"  id="open-button">
+                    <i class="mdi-navigation-menu"></i>
+                  </button>             
+                </div>
+              </div>
+            </div>
+        </div>        
+        <div class="contents text-right">
+          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Nature Care</h1>
+          <br>
+          <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Caring for the nature that cares for us</p>
+          <!-- <a href="#why" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Download</a>
+          <a href="#features" class="btn btn-lg btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Learn More</a> -->
+        </div>   
+    </header>
+
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">Objectives</h1>
+          <!-- <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Who seeks after it and wants to have it</h2> -->
+        </div>
+        <div class="row">
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="features">
+              <div class="icon">
+                <i class="fa fa-users"></i>
+              </div>
+              <div class="features-text">
+                <h4>Unite</h4>
+                <p>Unite all sections under a common platform and thereby try to work together for the development of the area in all respects.
+                </p>
+              </div>
+             </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="features">
+              <div class="icon">
+                <i class="mdi-action-done-all"></i>
+              </div>
+              <div class="features-text">
+                <h4>Promote self employment</h4>
+                <p>To organise training camps in various self employment generating schemes for the welfare and interest of the educated unemployed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="features">
+              <div class="icon">
+                <i class="fa fa-exclamation"></i>
+              </div>
+              <div class="features-text">
+                <h4>Social Awareness</h4>
+                <p>
+                  To cooperate with the Govt. and other agencies in fulfilling various schemes of health, environment, education and above all the social awareness for a living kind of the region.
+                </p>
+              </div>
+            </div>
+          </div>            
+
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="features">
+              <div class="icon">
+                <i class="fa fa-level-up"></i>
+              </div>
+              <div class="features-text">
+                <h4>Uplifting</h4>
+                <p>
+                  To extend helping hands to the desirous and needy poor students for the upliftment as much as possible.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="features">
+              <div class="icon">
+                <i class="fa fa-book"></i>
+              </div>
+              <div class="features-text">
+                <h4>Addressing illiteracy</h4>
+                <p>
+                To try for removal of illiteracy by establishing pre-primary and adult education centres.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="features">
+              <div class="icon">
+                <i class="fa fa-ambulance"></i>
+              </div>
+              <div class="features-text">
+                <h4>Disaster Response</h4>
+                <p>
+                To help the people in the area in times of natural calamities and epidemic situations.
+                </p>
+              </div>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <div class="container">
+        
+        <div class="row">     
+
+          <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <img src="img/act1.png" alt="">
+          </div>
+
+          <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="pull-left content">
+              <h2>Rules and Regulations</h2>
+              <ul class="list-item">
+                <li><i class="mdi-action-done"></i>Memebership</li>
+                <li><i class="mdi-action-done"></i>Procedure of General Meeting</li>
+                <li><i class="mdi-action-done"></i>Control of fund</li>
+                <li><i class="mdi-action-done"></i>Legal Procedure</li>
+                <li><i class="mdi-action-done"></i>Election of the Executive commitee</li>
+                <li><i class="mdi-action-done"></i>Term of the Executive commitee</li>
+                <li><i class="mdi-action-done"></i>Function of the Executive commitee</li>
+                <li><i class="mdi-action-done"></i>Dissolution</li>
+              </ul>
+              <br>
+              <a href="javascript:void(0)" class="btn btn-lg btn-primary">Rules</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section id="main-features" class="section main-feature-gray">
+      <div class="container">
+
+        <div class="row">   
+          <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="feature-item">
+              <h3 class="title-small">
+              Annual Activity 2013-14
+              </h3>
+
+              <h3>Polythene & plastic awareness programmes</h3>
+              <p>Plastic is a non-biodegradeabe substance which has large impacts in deteriorating the environment. Keeping the views focused we carried out the "Plastic Awareness Programme on 31st Dec, 2013 and 1st Jan, 2014"</p>
+
+              <h3>Computer Training</h3>
+              <p>Our society provided 3 months of free computer training twice a year during 2013-14. In all 40 students benefited from this camp.</p>
+
+              <h3>Flood relief camp</h3>
+              <p>Our NGO successfully organised a flood relief camp distributing food and clothes at Rangia among victims.</p>
+
+              <h3>Health check-up camp</h3>
+              <p>Organised a free health check-up camp on 16th February, 2014 at Korara, Baihata Chariali. Inaugurated by Dr. Lohit Baishya around 500 people turned up for a health check-up</p>
+
+            </div>
+          </div>
+          
+          <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <img src="img/act1.png" class="img-responsive" alt="">
+          </div>  
+
+        </div>
+
+      </div>
+    </section>
+
+     <section id="main-features" class="section">
+      <div class="container">
+
+        <div class="row"> 
+
+          <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <img src="img/act2.png" class="img-responsive" alt="">
+          </div>
+
+          <div class="col-md-8 col-sm-8 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="feature-item">
+              <h3 class="title-small">
+              Annual Activity 2012-13
+              </h3>
+              
+              <h3>One day awareness programmes</h3>
+              <p>Nature Care has organised many one day awareness camps to promote protection of wildlife, awareness to fight against child labour and compulsory education for all. We have been celebrating World Environment Day, Tree Plantation Day and awareness day to save river dolphin at Kusi River.</p>
+
+              <h3>Computer Training</h3>
+              <p>Our society provided 3 months of free computer training twice a year during 2012-13. In all 40 students benefited from this camp.</p>
+
+              <h3>Flood relief camp</h3>
+              <p>Our NGO successfully organised a flood relief camp distributing food and clothes at Morigaon among victims.</p>
+
+              <h3>Health check-up camp</h3>
+              <p>Organised a free health check-up camps twice during 2012-13 supplying medicines and treatment among the poor and especially for disabled patients suffering from Polio, Paralysis, Rheumatic Pain.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+     <section id="main-features" class="section main-feature-gray">
+      <div class="container">
+
+        <div class="row">     
+
+          <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="feature-item">
+              <h3 class="title-small">
+              Annual Activity 2011-12
+              </h3>
+              
+              <h3>Polythene and plastic awareness programmes</h3>
+              <p>Plastic is a non-biodegradeabe substance which has large impacts in deteriorating the environment. Keeping the views focused we carried out the "Plastic Awareness Programme on 31st Dec, 2011 and 1st Jan, 2012"</p>
+
+              <h3>Computer Training</h3>
+              <p>Our society provided 3 months of free computer training twice a year during 2011-12. In all 40 students benefited from this camp.</p>
+
+              <h3>Flood relief camp</h3>
+              <p>Our NGO successfully organised a flood relief camp distributing food and clothes at Morigaon among victims.</p>
+
+              <h3>Health check-up camp</h3>
+              <p>Organised a free health check-up camp on 16th February, 2011 at Korara, Baihata Chariali. Inaugurated by Dr. Lohit Baishya around 450 people turned up for a health check-up.<br>It was carried out by Ganesh Mandir Committee. The required drugs were provided by Jagat Pharma and personally by Dr. Jayanta Bordoloi and Dr. Utpal Deka.</p>
+
+              <h3>Formation of self-help group</h3>
+              <p>Nature Care has formed 20 member self-help group for encouraging the women for small savings and availing loan facilities to improve the earning sources according to Rashttriya Mohila Kosh. To put this to a successful end Gramin Bokash Nidhi has given them a loan for rearing pigs, ducks and poultry.</p>
+
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <img src="img/act3.png" class="img-responsive" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="main-features" class="section">
+      <div class="container">
+
+
+        <div class="row">   
+
+          <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <img src="img/act4.png" class="img-responsive" alt="">
+          </div> 
+
+          <div class="col-md-8 col-sm-8 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="feature-item">
+              <h3 class="title-small">
+              Annual Activity 2010-11
+              </h3>
+              <h3>Polythene & plastic awareness programmes</h3>
+              <p>Plastic is a non-biodegradeabe substance which has large impacts in deteriorating the environment. Keeping the views focused we carried out the "Plastic Awareness Programme on 31st Dec, 2010 and 1st Jan, 2011 at the Assam Zoo cum Botanical Garden"</p>
+
+              <h3>Computer Training</h3>
+              <p>Our society provided 3 months of free computer training twice a year during 2010-11. In all 40 students benefited from this camp.</p>
+
+              <h3>Flood relief camp</h3>
+              <p>Our NGO successfully organised a flood relief camp distributing food and clothes at Rangia among victims.</p>
+
+              <h3>Health check-up camp</h3>
+              <p>Organised a free health check-up camp on 16th February, 2011 at Korara, Baihata Chariali. Inaugurated by Dr. Lohit Baishya around 450 people turned up for a health check-up</p>
+            </div>
+          </div>   
+
+        </div>
+      </div>
+    </section>
+
+    <section id="cta">
+      <div class="container">
+        <div class="row text-center">         
+            <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Join Us Today</h3>
+             <a href="javascript:void(0)" class="btn btn-lg btn-border">Sign Up</a>
+          </div>
+      </div>
+    </section>
+
+    <section id="screenshot" class="section_lesspad">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Executive Members</h1>
+          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms"></h2>
+            <div class="text-right">
+              <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <img src="img/mem.png" class="img-responsive" alt="">
+              </div> 
+              <br><br>
+              <h3 class="title-small">
+                President : Mukut Das
+              </h3>
+              <h3 class="title-small">
+                Secretary : Manindra Kumar Talukdar
+              </h3>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshot" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInRight;">Gallery</h1>
+        </div>
+      </div>
+
+      <div class="row" style="margin:0; padding:0;">
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="img/events/001.jpg" alt="">
+              <figcaption>
+                <div class="heading">
+                  <h3>World Environment Day</h3>
+                  <p>
+                  </p>
+                </div>
+                <div class="icon">
+                  <i class="mdi-content-add-circle-outline"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="img/events/008.jpg" alt="">
+              <figcaption>
+                <div class="heading">
+                  <h3>Plastic Awareness Camp</h3>
+                  <p>
+                  </p>
+                </div>
+                <div class="icon">
+                  <i class="mdi-content-add-circle-outline"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="img/events/009.jpg" alt="">
+              <figcaption>
+                <div class="heading">
+                  <h3>Plastic Awareness Camp</h3>
+                  <p>
+                  </p>
+                </div>
+                <div class="icon">
+                  <i class="mdi-content-add-circle-outline"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="other-features">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Functions of the Executive Commitee</h1>
+          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Who seeks after it and wants to have it</h2>
+        </div> 
+        <div class="row">
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="features-content">
+              <div class="icon hi-icon-effect-3b">
+                <i class="mdi-action-settings"></i>
+              </div>
+              <h3>Customization</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="features-content">
+              <div class="icon">
+                <i class="mdi-action-lock-outline"></i>
+              </div>
+              <h3>Security</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="features-content">
+              <div class="icon">
+                <i class="mdi-file-cloud-queue"></i>
+              </div>
+              <h3>Cloud</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="features-content">
+              <div class="icon">
+                <i class="mdi-social-person-outline"></i>
+              </div>
+              <h3>Analtyics</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1200ms">
+            <div class="features-content">
+              <div class="icon">
+                <i class="mdi-action-grade"></i>
+              </div>
+              <h3>Performance</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1400ms">
+            <div class="features-content">
+              <div class="icon">
+                <i class="mdi-content-flag"></i>
+              </div>
+              <h3>Network</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1600ms">
+            <div class="features-content">
+              <div class="icon">
+                <i class="mdi-communication-messenger"></i>
+              </div>
+              <h3>Support</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1800ms">
+            <div class="features-content">
+              <div class="icon">
+                <i class="mdi-action-settings-power"></i>
+              </div>
+              <h3>Easy</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <br>
+    <section id="testimonial" class="section">
+      <div class="container">
+        <div class="section-header text-center wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+          <h1 class="section-title">What People Say</h1>
+          <h2 class="section-subtitle">Nature Care</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+                <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active text-center">               
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                  <div class="meta">
+                    <p>Web excutive <span><a href="http://wingthemes.com/">WingThemes</a></span></p>
+                  </div>
+                </div>
+                <div class="item text-center">                
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                  <div class="meta">
+                    <p>Web excutive <span><a href="http://graygrids.com/">GrayGrids</a></span></p>
+                  </div>
+                </div>
+                <div class="item text-center">                
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                  <div class="meta">
+                    <p>Web excutive <span><a href="http://landingbow.com/">LandinBow</a></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="counter" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-8 col-xs-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="counter-item">
+              <div class="icon">
+                <i class="fa fa-calendar"></i>
+              </div>
+              <h3 class="timer">2000</h3>
+              <hr>
+              <h5>
+                Since
+              </h5>          
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-8 col-xs-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="counter-item">
+              <div class="icon">
+                <i class="mdi-action-face-unlock"></i>
+              </div>
+              <h3 class="timer">50</h3>
+              <hr>
+              <h5>
+                Events and camps till date
+              </h5>          
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-8 col-xs-12 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="counter-item">
+              <div class="icon">
+                <i class="mdi-action-grade"></i>
+              </div>
+              <h3 class="timer">10000</h3>
+              <hr>
+              <h5>
+                People reached
+              </h5>          
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    
+
+
+    <section id="clients" class="section">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Featured on</h1>
+          <h2 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">Material UI Bootstrap APP and Business Template</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="client-item-wrapper">
+              <img src="img/portfolio/at.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="client-item-wrapper">
+              <img src="img/portfolio/pratidin.gif" alt="">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="client-item-wrapper">
+              <img src="img/portfolio/nb.gif" alt="">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
+              <img src="img/portfolio/ak.jpg" width="200" height="108" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2 class="section-title">That's Where We Are</h2>
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="info">
+                  <div class="icon">
+                    <i class="mdi-maps-map"></i>
+                  </div>
+                  <h4>Location</h4>
+                  <p>NSW, Sydney, Australia</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="info">
+                  <div class="icon">
+                    <i class="mdi-content-mail"></i>
+                  </div>
+                  <h4>Email</h4>
+                  <p>office@graygrids.com</p>
+                </div>
+              </div>
+              <div class="clear"></div>
+              <div class="col-md-6 col-sm-6">
+                <div class="info">
+                  <div class="icon">
+                    <i class="mdi-action-settings-phone"></i>
+                  </div>
+                  <h4>Phone Number</h4>
+                  <p>0753 016 572</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="info">
+                  <div class="icon">
+                    <i class="mdi-action-thumb-up"></i>
+                  </div>
+                  <h4>Social Media</h4>
+                  <p>@GrayGrids</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2 class="section-title">Love to Hear From You</h2>
+
+            <div class="text-center">
+                <h3><a rel="nofollow" href="https://rebrand.ly/gg-pluto-purchase">Under construction</a></h3>
+                <a rel="nofollow" href="https://rebrand.ly/gg-pluto-purchase" class="btn btn-larg btn-primary">#kdas</a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <div class="map-area">      
+      <div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6853.31334931688!2d149.5710983929677!3d-33.43399308961885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x63680231a1016da2!2sWestern+Region+Academy+of+Sport!5e0!3m2!1sen!2sbd!4v1436826340086" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+       </div>
+    </div>
+
+    <section id="footer">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Products</h3>
+              <ul>
+                <li><a href="http://wingthemes.com/">WingThemes</a>
+                </li>
+                <li><a href="http://graygrids.com/">Graygrids</a>
+                </li>
+                <li><a href="http://wpbean.com/">WPBean</a>
+                </li>
+                <li><a href="http://landingbow.com/">Landingbow</a>
+                </li>
+                <li><a href="http://freebiescircle.com/">FreebiesCicle</a>
+                </li>               
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>FAQs</h3>
+              <ul>
+                <li><a href="#">Why choose us?</a>
+                </li>
+                <li><a href="#">Where we are?</a>
+                </li>
+                <li><a href="#">Fees</a>
+                </li>
+                <li><a href="#">Guarantee</a>
+                </li>
+                <li><a href="#">Discount</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Career</a>
+                </li>
+                <li><a href="#">Partners</a>
+                </li>
+                <li><a href="#">Team</a>
+                </li>
+                <li><a href="#">Clients</a>
+                </li>
+                <li><a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <h3>Find us on</h3>
+              <a class="social" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a class="social" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a class="social" href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>  
+      </div>      
+      <!-- Go to Top Link -->
+      <a href="#home" class="btn btn-primary back-to-top">
+      <i class=" mdi-hardware-keyboard-arrow-up"></i>
+      </a>
+    </section> 
+
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copyright-text">
+             2017 All right reserved. Designed and Developed with <i class="fa fa-heart"></i> by 
+              <a rel="nofollow" href="http://graygrids.com/">
+                Kabir Das
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>     
+    </div>  
+		
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ripples.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.mmenu.min.all.js"></script> 
+    <script src="js/count-to.js"></script>   
+    <script src="js/jquery.inview.min.js"></script>     
+    <script src="js/classie.js"></script>
+    <script src="js/jquery.nav.js"></script>      
+    <script src="js/smooth-on-scroll.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+
+
+    
+
+    <script>
+        $(document).ready(function() {
+            // This command is used to initialize some elements and make them work properly
+            $.material.init();
+        });
+    </script>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('test'),{
+          thumbnail : true
+        }); 
+    </script>
+
+
+  </body>
+
+</html>
